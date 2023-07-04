@@ -1,0 +1,290 @@
+#hepsimum{
+margin-top: 0px;
+margin-left: -30px;
+font-size: 13px;
+width: 800px;
+}
+#hepsimum span{
+display: none;
+}
+#trendyol{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-size: 15px;
+    display: none;
+    width: 0px;
+
+}
+#hepsiburada{
+    margin-top: -20px;
+    margin-right: -10px;
+    font-size: 15px;
+    display: none;
+    width: 0px;
+
+}
+.aboutus-pictures{
+    width: 400px;
+    height: 400px;
+}
+#favicon{
+ margin: 0px 0;
+}
+
+.navbar-tablet {
+    color:#fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.container-products {
+    width: 80%;
+    margin: 0 0;
+    padding: 0 0;
+
+}
+#mainCaption {
+    padding: px;
+
+}
+
+.navbar-toggle {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    margin-top: 100px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.navbar-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-menu li {
+    padding: 1px 75px;
+    display: block; /* Her bir <li> öğesini aşağı doğru sıralar */
+    
+}
+
+.navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul li a {
+    padding: 15px 30px;
+}
+.menu ul li:nth-child(1){
+    margin-top: 70px;
+}
+
+.show {
+    display: block;
+}
+.item-mobil{
+    width: 300px;
+    height: 300px;
+    margin-left: 35px;
+}
+.item-mobil .itemText{
+    height: 300px;
+    
+}
+.item-mobil2{
+margin-top: 650px;
+width: 300px;
+height: 200px;
+margin-left: -150px;
+}
+.item-mobil2 .itemText{
+    height: 300px;
+}
+.item-mobil3{
+margin-bottom: -500px;
+margin-top: 1300px;
+width: 300px;
+height: 200px;
+}
+.item-mobil3 .itemText{
+    height: 500px;
+}
+.featuresTop{
+    margin-top: 0px;
+}
+
+
+#btnpmum{
+  position: absolute;
+ margin-top: 16px;
+ left: 210px;
+
+}
+#imggoksun{
+    width: 180px;
+    margin-left: -60px;
+    margin-top: -25px;
+}
+#coluc{
+    width: 270px;
+}
+.aboutus-text{
+    margin-top: -40px;
+    
+}
+.aboutus{
+    margin-bottom: 550px;
+    margin-top: 20px;
+}
+.children{
+    width: 80%;
+    margin: 10px 180px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.box {
+    margin-bottom: 20px;
+}
+.left{
+    margin-left: -140px;
+    
+}
+.right{
+    margin-left: -140px;
+    margin-top: 0px;
+}
+.footerItem .baslik{
+    margin-top: 250px;
+    margin-left: -270px;
+}
+.footerItem .anasayfa,.hakkimizda,.urunler,.iletisim,.blog{
+    margin-left: -270px;
+}
+.footerItem .contactUs{
+    margin-top: 150px;
+    margin-left: -150px;
+}
+.footerItem {
+    margin-left: -10px;
+}
+.footerItem .text{
+    margin-left: -150px;
+}
+.footerItem .icon{
+    margin-left: -150px;
+}
+.footer-cont{
+    font-size: 10px;
+}
+.sectionArea{
+    margin-top: 200px;
+
+}
+.sectionArea.a.index{
+    margin-top: 200px;
+}
+.productshead{
+    margin-top: -230px;
+}
+
+/* blog kısmı */
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col3 {
+    width: 48%;
+  }
+
+  .sectionArea.footer{
+    margin-top: 2400px;
+}
+.colormums img{
+    width: 146px;
+}
+.colormums .itemText{
+    width: 146px;
+}
+.itemText.son{
+    height: 450px;
+}
+.itemText.ilk{
+    height: 500px;
+}
+.btnDetails{
+    font-size: 12px;
+}
+
+@media (max-width: 410px) {
+    #hepsimum{
+        margin-top: -10px;
+        margin-left: -30px;
+        font-size: 12px;
+        }
+        #trendyol{
+            margin-top: -10px;
+            margin-left: 10px;
+            font-size: 12px;
+        }
+        #hepsiburada{
+            margin-top: -10px;
+            margin-right: -10px;
+            font-size: 12px;
+        }
+  }
+
+  /* producs */
+
+  .children{
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px 0px;
+    display: flex;
+}
+
+.sectionArea.a.index{
+    margin-top: 200px;
+}
+.sectionArea.a.products{
+    margin-top: 100px;
+}
+.sectionArea.a.contact{
+    margin-top: -200px;
+}
+.sectionArea.a.blog{
+    margin-top: 300px;
+}
+.sectionArea.a.blogone{
+    margin-top: -100px;
+}
+.sectionArea.a.blogtwo{
+    margin-top: -100px;
+}
+.sectionArea.a.blogthree{
+    margin-top: -100px;
+}
+.sectionArea.a.blogfour{
+    margin-top: -100px;
+}
+.sectionArea.a.blogfive{
+    margin-top: -100px;
+}
+.sectionArea.a.blogsix{
+    margin-top: -100px;
+}
+.sectionArea.a.about{
+    margin-top: 1000px;
+}
